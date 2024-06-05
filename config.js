@@ -7,13 +7,13 @@ global.owner = process.env.OWNER_NUMBER.split(",")
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://debopi8523:aaaa1111aaaa@cluster0.9s0bfxq.mongodb.net/?retryWrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'textnow1pak@gmail.com'
-global.github = 'https://github.com/naveeddogar/KING-MD'
-global.location = 'pakistan/multan'
-global.gurl = 'https://chat.whatsapp.com/BanzV2OzsN6LJXkRQEfUhX' // add your username
-global.sudo = process.env.SUDO || '923133428818'
+global.github = 'https://github.com/Raone01/KING-MD'
+global.location = 'Kolkata, India'
+global.gurl = 'https://chat.whatsapp.com/BanzV2OzsN6LJXkRQEfUhX' // ▪️▫️▪️ѕιℓєηт  χαямσηу🦚
+global.sudo = process.env.SUDO || '919634945456'
 global.devs = '923133428818';
 global.website = 'https://king-md-session.onrender.com/' // Hello world
-global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/9f1fec24ea1c59dcea02c.jpg'
+global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/9966c6f40b95b1428f993.jpg'
 module.exports = {
   botname:   process.env.BOT_NAME === undefined ? '▪️▫️▪️ѕιℓєηт  χαямσηу🦚' : process.env.BOT_NAME,
   ownername: process.env.OWNER_NAME === undefined ? '▪️▫️▪️ѕιℓєηт  χαямσηу🦚' : process.env.OWNER_NAME,
