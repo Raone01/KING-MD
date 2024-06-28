@@ -11,7 +11,7 @@ global.github = 'https://github.com/Raone01/KING-MD'
 global.location = 'Kolkata, India'
 global.gurl = 'https://chat.whatsapp.com/BanzV2OzsN6LJXkRQEfUhX' // ▪️▫️▪️ѕιℓєηт  χαямσηу🦚
 global.sudo = process.env.SUDO || '919634945456'
-global.devs = '923133428818';
+global.devs = '919634945456';
 global.website = 'https://king-md-session.onrender.com/' // Hello world
 global.THUMB_IMAGE = process.env.THUMB_IMAGE || 'https://telegra.ph/file/9966c6f40b95b1428f993.jpg'
 module.exports = {
@@ -19,15 +19,15 @@ module.exports = {
   ownername: process.env.OWNER_NAME === undefined ? '▪️▫️▪️ѕιℓєηт  χαямσηу🦚' : process.env.OWNER_NAME,
   sessionName:  process.env.SESSION_ID === undefined ? false : process.env.SESSION_ID,
   author:  process.env.PACK_AUTHER.split(";")[0] === undefined ? '▪️▫️▪️ѕιℓєηт  χαямσηу🦚' : process.env.PACK_AUTHER.split(";")[0],
-  auto_read_status :  process.env.AUTO_READ_STATUS  || 'true' ,
+  auto_read_status :  process.env.AUTO_READ_STATUS  || 'false' ,
   packname:  process.env.PACK_NAME.split(";")[1] === undefined ? '▪️▫️▪️ѕιℓєηт  χαямσηу🦚' : process.env.PACK_NAME.split(";")[1],
-  autoreaction:  process.env.AUTO_REACTION ||  'true' ,
+  autoreaction:  process.env.AUTO_REACTION ||  'false' ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'MC,Mc,mc,BC,Bc,bc,CHODO,Chodo,chodo,MADARCHOD,Madarchod,madarchod,BHENCHOD,Bhenchod,bhenchod,BETICHOD,Betichod,betichod,BSDK,Bsdk,bsdk,BHOSDA,Bhosda,bhosda,RANDI,Randi,randi,RANDWA,Randwa,randwa,LUND,Lund,lund,CHUT,Chut,chut,PORN,Porn,porn,SEX,Sex,sex,FUCK,Fuck,fuck,MOTHER FUCKER,Mother Fucker,mother fucker,FUCKER,Fucker,fucker,CHOD,G4ND, MILF,Milf,milf ,http,https' : process.env.ANTI_BAD_WORD,
   alwaysonline:  process.env.ALWAYS_ONLINE === undefined ? false : process.env.ALWAYS_ONLINE,
   antifake : process.env.FAKE_COUNTRY_CODE === undefined ? '212,1,234' : process.env.FAKE_COUNTRY_CODE,
   readmessage:  process.env.READ_MESSAGE === undefined ? false : process.env.READ_MESSAGE,
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
-  HANDLERS:  process.env.PREFIX === undefined ? ',' : process.env.PREFIX,
+  HANDLERS:  process.env.PREFIX === undefined ? '!' : process.env.PREFIX,
   warncount : process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
   disablepm:  process.env.DISABLE_PM === undefined ? false : process.env.DISABLE_PM,
   levelupmessage:  process.env.LEVEL_UP_MESSAGE === undefined ? false : process.env.LEVEL_UP_MESSAGE,
